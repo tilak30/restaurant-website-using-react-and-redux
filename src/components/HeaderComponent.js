@@ -1,46 +1,49 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
-          Button, Modal, ModalBody, ModalHeader, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem,
+    Button, Modal, ModalHeader, ModalBody,
+    Form, FormGroup, Input, Label } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-
+  const bannerImg = {
+    backgroundSize: '100%',
+    backgroundImage: 'url(assets/images/test.png)',
+    height: '25rem',
+    color: 'azure',
+    paddingTop: '1rem'
+  };
 class Header extends Component {
     constructor(props) {
         super(props);
-        
+        this.toggleNav = this.toggleNav.bind(this);
         this.state = {
           isNavOpen: false,
-          isModalOpen: false
+          isModalOpen:false
         };
-        this.handleLogin = this.handleLogin.bind(this);
-        this.toggleModal = this.toggleModal.bind(this);
-        this.toggleNav = this.toggleNav.bind(this);
-      }
-
-      handleLogin(event) {
-        this.toggleModal();
-        alert("Username: " + this.username.value + " Password: " + this.password.value
-            + " Remember: " + this.remember.checked);
-        event.preventDefault();
 
       }
+      
 
       toggleNav() {
         this.setState({
           isNavOpen: !this.state.isNavOpen
         });
       }
-
-      toggleModal() {
+      toggleModal=()=>{
         this.setState({
-          isModalOpen: !this.state.isModalOpen
-        });
+            isModalOpen: !this.state.isModalOpen
+          });
       }
+      handleLogin=(event) =>{
+        this.toggleModal();
+        alert("Username: " + this.username.value + " Password: " + this.password.value
+            + " Remember: " + this.remember.checked);
+        event.preventDefault();
 
+    }
     render() {
         return(
-            <React.Fragment>
+            <div>
                 <Navbar dark expand="md">
-                    <div className="container">
+                    <div className="container-fluid">
                         <NavbarToggler onClick={this.toggleNav} />
                         <NavbarBrand className="mr-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='Ristorante Con Fusion' /></NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -66,8 +69,9 @@ class Header extends Component {
                         </Collapse>
                     </div>
                 </Navbar>
-                <Jumbotron>
-                    <div className="container">
+                {/* <Jumbotron> */} 
+                    <div style={bannerImg}>
+                    <div className="container-fluid">
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
                                 <h1>Ristorante con Fusion</h1>
@@ -75,7 +79,8 @@ class Header extends Component {
                             </div>
                         </div>
                     </div>
-                </Jumbotron>
+                    </div>
+                {/* </Jumbotron> */}
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
                     <ModalBody>
@@ -101,7 +106,7 @@ class Header extends Component {
                         </Form>
                     </ModalBody>
                 </Modal>
-            </React.Fragment>
+            </div>
         );
     }
 }
