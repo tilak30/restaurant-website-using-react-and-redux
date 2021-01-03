@@ -219,42 +219,6 @@
       "comment": "111",
       "date": "2018-07-01T09:31:52.507Z",
       "id": 22
-    },
-    {
-      "dishId": 2,
-      "rating": "2",
-      "author": "Nikhil",
-      "comment": "Best !!",
-      "date": "2018-07-01T09:32:52.181Z",
-      "id": 23
-    },
-    {
-      "dishId": 2,
-      "rating": "3",
-      "author": "sdsd",
-      "comment": "great",
-      "date": "2018-07-01T09:36:37.911Z",
-      "id": 24
-    },
-    {
-      "dishId": 2,
-      "rating": "2",
-      "author": "Nikhil",
-      "comment": "woww",
-      "date": "2018-07-01T09:39:13.057Z",
-      "id": 25
-    },
-    {
-      "date": "2018-07-01T09:41:41.638Z",
-      "id": 26
-    },
-    {
-      "dishId": 2,
-      "rating": "4",
-      "author": "Nikhil karkra",
-      "comment": "best !!",
-      "date": "2018-07-01T09:42:53.921Z",
-      "id": 27
     }
   ],
   "promotions": [
@@ -352,17 +316,6 @@
       "id": 4
     },
     {
-      "date": "2020-08-18T18:20:32.669Z",
-      "firstname": "",
-      "lastname": "",
-      "telnum": "",
-      "email": "",
-      "agree": false,
-      "contactType": "Tel.",
-      "message": "",
-      "id": 5
-    },
-    {
       "date": "2020-08-18T18:26:50.483Z",
       "firstname": "Tilak",
       "lastname": "Bhansali",
@@ -371,7 +324,7 @@
       "agree": true,
       "contactType": "Tel.",
       "message": "nice website",
-      "id": 6
+      "id": 5
     }
   ]
 }
