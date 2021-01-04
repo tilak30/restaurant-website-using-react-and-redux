@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/restaurant-website-using-react-and-redux/static/css/main.a37c2842.chunk.css",
-    "main.js": "/restaurant-website-using-react-and-redux/static/js/main.65ee78df.chunk.js",
-    "main.js.map": "/restaurant-website-using-react-and-redux/static/js/main.65ee78df.chunk.js.map",
+    "main.js": "/restaurant-website-using-react-and-redux/static/js/main.f0fb864d.chunk.js",
+    "main.js.map": "/restaurant-website-using-react-and-redux/static/js/main.f0fb864d.chunk.js.map",
     "runtime-main.js": "/restaurant-website-using-react-and-redux/static/js/runtime-main.93e7eaed.js",
     "runtime-main.js.map": "/restaurant-website-using-react-and-redux/static/js/runtime-main.93e7eaed.js.map",
     "static/css/2.08553793.chunk.css": "/restaurant-website-using-react-and-redux/static/css/2.08553793.chunk.css",
     "static/js/2.f2275e03.chunk.js": "/restaurant-website-using-react-and-redux/static/js/2.f2275e03.chunk.js",
     "static/js/2.f2275e03.chunk.js.map": "/restaurant-website-using-react-and-redux/static/js/2.f2275e03.chunk.js.map",
     "index.html": "/restaurant-website-using-react-and-redux/index.html",
-    "precache-manifest.1840144ca3279e831ee5d8f5fe3b0942.js": "/restaurant-website-using-react-and-redux/precache-manifest.1840144ca3279e831ee5d8f5fe3b0942.js",
+    "precache-manifest.0d17d66679a7b1c07d062206fd8466e9.js": "/restaurant-website-using-react-and-redux/precache-manifest.0d17d66679a7b1c07d062206fd8466e9.js",
     "service-worker.js": "/restaurant-website-using-react-and-redux/service-worker.js",
     "static/css/2.08553793.chunk.css.map": "/restaurant-website-using-react-and-redux/static/css/2.08553793.chunk.css.map",
     "static/css/main.a37c2842.chunk.css.map": "/restaurant-website-using-react-and-redux/static/css/main.a37c2842.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.08553793.chunk.css",
     "static/js/2.f2275e03.chunk.js",
     "static/css/main.a37c2842.chunk.css",
-    "static/js/main.65ee78df.chunk.js"
+    "static/js/main.f0fb864d.chunk.js"
   ]
 }
