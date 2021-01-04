@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
 
 const DishImg = {
     height: '20rem',
@@ -15,7 +14,7 @@ const DishImg = {
         return (
             <Card key={dish.id}>
                 <Link to={`/menu/${dish.id}`} >
-                <CardImg style={DishImg} width="100%" src={baseUrl + dish.image} alt={dish.name} />
+                <CardImg style={DishImg} width="100%" src={require('./' + dish.image)} alt={dish.name} />
                 <CardImgOverlay>
                     <CardTitle>{dish.name}</CardTitle>
                 </CardImgOverlay>

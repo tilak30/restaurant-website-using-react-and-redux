@@ -2,7 +2,6 @@ import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
 import { Fade, Stagger } from 'react-animation-components';
 const leaderImg = {
     height: '105px',
@@ -25,7 +24,7 @@ function About(props) {
             <Fade in>
                 <Media tag="li" key={leader.id} className="col-12 mt-5" >
                     <Media left middle>
-                        <Media style={leaderImg} object src={baseUrl + leader.image} alt={leader.name} />
+                        <Media style={leaderImg} object src={require('./' + leader.image)} alt={leader.name} />
                     </Media>
                     <Media body className="ml-5">
                         <Media heading>{leader.name}</Media>

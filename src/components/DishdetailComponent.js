@@ -5,7 +5,6 @@ import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Col, Row } from 'reactstrap';
 import { Nav, NavItem, Button, Modal, ModalHeader, ModalBody, Label } from 'reactstrap';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
 import { FadeTransform, Fade, Stagger } from 'react-animation-components';
 
 
@@ -114,7 +113,7 @@ class CommentForm extends Component{
                             exitTransform: 'scale(0.5) translateY(-50%)'
                         }}>
                         <Card>
-                            <CardImg top src={baseUrl + dish.image} alt={dish.name} />
+                            <CardImg top src={require('./' + dish.image)} alt={dish.name} />
                             <CardBody>
                                 <CardTitle>{dish.name}</CardTitle>
                                 <CardText>{dish.description}</CardText>

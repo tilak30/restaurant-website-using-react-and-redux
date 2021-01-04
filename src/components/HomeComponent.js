@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
 import { FadeTransform } from 'react-animation-components';
 const CardImgFixHeight = {
     height: '20rem',
@@ -27,7 +26,7 @@ function RenderCard({ item, isLoading, errMess }) {
             exitTransform: 'scale(0.5) translateY(-50%)'
         }}>
             <Card>
-                <CardImg style={CardImgFixHeight} src={baseUrl + item.image} alt={item.name} />
+                <CardImg style={CardImgFixHeight} src={require('./' + item.image)} alt={item.name} />
                 <CardBody style={cardImgFix15} >
                     <CardTitle>{item.name}</CardTitle>
                     {item.designation ? <CardSubtitle>{item.designation}</CardSubtitle> : null}
