@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2d6442ea1415dc65f18426820c43239",
+    "revision": "e238406d5dae65644fb2a71b7b6f40a0",
     "url": "/restaurant-website-using-react-and-redux/index.html"
   },
   {
-    "revision": "9afab4ec7ca66ecb8072",
+    "revision": "d979e645fa43aae1d3ea",
     "url": "/restaurant-website-using-react-and-redux/static/css/2.08553793.chunk.css"
   },
   {
-    "revision": "0f578cd344e6d64500fe",
+    "revision": "b88d16a1a10353dfa989",
     "url": "/restaurant-website-using-react-and-redux/static/css/main.a37c2842.chunk.css"
   },
   {
-    "revision": "9afab4ec7ca66ecb8072",
-    "url": "/restaurant-website-using-react-and-redux/static/js/2.f2275e03.chunk.js"
+    "revision": "d979e645fa43aae1d3ea",
+    "url": "/restaurant-website-using-react-and-redux/static/js/2.f9702ea5.chunk.js"
   },
   {
     "revision": "3a5359d431b8190dc2f36e4703f39768",
-    "url": "/restaurant-website-using-react-and-redux/static/js/2.f2275e03.chunk.js.LICENSE.txt"
+    "url": "/restaurant-website-using-react-and-redux/static/js/2.f9702ea5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f578cd344e6d64500fe",
-    "url": "/restaurant-website-using-react-and-redux/static/js/main.f0fb864d.chunk.js"
+    "revision": "b88d16a1a10353dfa989",
+    "url": "/restaurant-website-using-react-and-redux/static/js/main.48651738.chunk.js"
   },
   {
     "revision": "85792ca36d5200a18fff",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/restaurant-website-using-react-and-redux/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "eb267f35256591eb7733b73c0455dbfe",
+    "url": "/restaurant-website-using-react-and-redux/static/media/logo.eb267f35.png"
   }
 ]);
